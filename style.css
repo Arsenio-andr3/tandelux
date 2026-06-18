@@ -5,7 +5,7 @@
 }
 :root{
     --roxo: #6A0DAD;
-    --branco: #F5F5F5;
+    --branco: #f5f5f500;
     --amarelo:  #FFBD3A;
     --azul: #00BFFF;
     --preto: #2C2C2C;
@@ -13,7 +13,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--preto);
+    background-color: var(--branco);
 }
 header{
     background-image: linear-gradient(to top, #033054e2 5%, var(--azul));
@@ -24,6 +24,8 @@ header{
 header > h1{
     margin-bottom:  20px;
     margin: auto;
+    color: white;
+    padding-top: 20px;
 }
 header > p{
     color: white;
@@ -59,10 +61,11 @@ main{
     background-color: var(--branco);
     min-width: 300px;
     max-width: 1000px;
-   
     margin: auto;
+   
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+    text-align: center;
 
 }
 main > p > .contacto{
