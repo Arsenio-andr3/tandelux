@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --roxo: #6A0DAD;
+    --branco: #F5F5F5;
+    --amarelo:  #FFBD3A;
+    --azul: #00BFFF;
+    --preto: #2C2C2C;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--preto);
+}
+header{
+    background-image: linear-gradient(to top, #033054e2 5%, var(--azul));
+    color: var(--branco);
+    min-height: 150px;
+    text-align: center;
+}
+header > h1{
+    margin-bottom:  20px;
+    padding-top: 10px;
+}
+header > p{
+    margin-bottom: 50px;
+}
+nav{
+    background-color: #033054e2;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.712);
+}
+nav > a{
+    position: absolute;
+    position: relative;
+    text-decoration: none;
+    color: #bdd3df;
+    font-size: 1.2em;
+    transition-duration: 0.5s;
+    padding: 7px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+main{
+    padding: 20px;
+    background-color: var(--branco);
+    min-width: 300px;
+    max-width: 1000px;
+   
+    margin: auto;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+main > p > .contacto{
+    color: #00BFFF;
+
+}
+main > h1{
+    color: #e1f0f4d0;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, var(--azul), var(--branco))
+    
+}
+main > h2{
+    color: #00BFFF;
+}
+main >  p{
+    text-align: justify;
+    font-size: 1em;
+    padding-top: 2px;
+}
+main > p > a{
+    text-decoration: none;
+    color: #18addf;
+}
+.contacto{
+    color: #00BFFF;
+}
+main p > a:hover{
+    text-decoration: underline;
+}
