@@ -23,7 +23,7 @@ header{
 }
 header > h1{
     margin-bottom:  20px;
-    padding-top: 10px;
+    margin: auto;
 }
 header > p{
     margin-bottom: 50px;
